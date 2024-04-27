@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>SELECT YOUR CHOICE</h1>
+    <div class="tabs-container">
+        <button class="tab active" id="menTab" onclick="showTab('Men')">Men</button>
+        <button class="tab" id="womenTab" onclick="showTab('Women')">Women</button>
+        <button class="tab" id="kidsTab" onclick="showTab('Kids')">Kids</button>
+    </div>
+    <div class="product-container" id="productContainer">
+        <!-- Product cards will be dynamically loaded here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
